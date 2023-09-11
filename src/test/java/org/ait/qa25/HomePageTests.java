@@ -3,9 +3,9 @@ package org.ait.qa25;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class HomePageTests extends TestBase{
+public class HomePageTests extends TestBaseDemoWebShop {
     @Test
     public void isHomeComponentPresentTest() {
-        Assert.assertTrue(isHomeComponentPresent());
+        Assert.assertTrue(app.getHomePage().isHomeComponentPresent());
     }
 }

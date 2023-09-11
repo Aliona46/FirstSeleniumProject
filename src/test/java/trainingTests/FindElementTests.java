@@ -1,4 +1,4 @@
-package org.ait.qa25;
+package trainingTests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
