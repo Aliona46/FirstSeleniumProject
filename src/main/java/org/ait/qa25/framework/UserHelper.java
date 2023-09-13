@@ -3,10 +3,16 @@ package org.ait.qa25.framework;
 import org.ait.qa25.models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.BrowserType;
 
 public class UserHelper extends HelperBase {
+    protected static ApplicationManager app = new ApplicationManager
+            (System.getProperty("browser", BrowserType.CHROME));
     public UserHelper(WebDriver driver) {
         super(driver);
+    }
+    public void clickOnRegistrationButton () {
+        click(By.cssSelector("[name=register-button]"));
     }
 
     public boolean isLoginLinkPresent() {
@@ -26,6 +32,13 @@ public class UserHelper extends HelperBase {
         type(By.cssSelector("#Password"), user.getPassword());
     }
 
+    public void fillLoginRegistrationFormForScreencast(User user) {
+        type(By.cssSelector("#Email"), user.getEmail());
+        pause(1000);
+        type(By.cssSelector("#Password"), user.getPassword());
+        pause(2000);
+    }
+
     public boolean isLogOutButtonPresent() {
         return isElementPresent2(By.cssSelector(".ico-logout"));
     }
@@ -33,4 +46,5 @@ public class UserHelper extends HelperBase {
     public void clickOnLoginButton() {
         click(By.cssSelector(".login-button"));
     }
+
 }

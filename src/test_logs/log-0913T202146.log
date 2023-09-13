@@ -1,0 +1,15 @@
+1957 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+6669 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Start test newUserRegistrationPositiveTestFromFDataProvider
+18281 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- FAILED newUserRegistrationPositiveTestFromFDataProviderScreenshot: C:\QAProjests\FirstSeleniumProject\screenshots\screen1694629323.png
+18282 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Stop test 
+18282 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- ***************************
+18285 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Start test newUserRegistrationPositiveTestFromFDataProvider
+29869 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- FAILED newUserRegistrationPositiveTestFromFDataProviderScreenshot: C:\QAProjests\FirstSeleniumProject\screenshots\screen1694629335.png
+29869 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Stop test 
+29869 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- ***************************
+29872 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Start test newUserRegistrationPositiveTestFromFDataProvider
+41292 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- FAILED newUserRegistrationPositiveTestFromFDataProviderScreenshot: C:\QAProjests\FirstSeleniumProject\screenshots\screen1694629346.png
+41292 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Stop test 
+41292 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- ***************************

@@ -1,8 +1,20 @@
 package org.ait.qa25.models;
 
 public class User {
+    private String firstName;
+    private String lastName;
     private String email;
     private String password;
+
+    public User setFirstName(String firstName) {
+        this.firstName = firstName;
+        return this;
+    }
+
+    public User setLastName(String lastName) {
+        this.lastName = lastName;
+        return this;
+    }
 
     public User setEmail(String email) {
         this.email = email;
@@ -21,4 +33,6 @@ public class User {
     public String getPassword() {
         return password;
     }
+
+
 }
