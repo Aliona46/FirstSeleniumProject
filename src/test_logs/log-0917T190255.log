@@ -1,0 +1,7 @@
+1882 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+5829 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Start test loginPositiveTest with data: []
+10941 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- PASSED: loginPositiveTest
+10942 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Stop test 
+10942 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- ***************************

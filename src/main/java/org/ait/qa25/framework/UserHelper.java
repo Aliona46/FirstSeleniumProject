@@ -44,7 +44,7 @@ public class UserHelper extends HelperBase {
     }
 
     public boolean isLogOutButtonPresent() {
-        return isElementPresent2(By.cssSelector(".ico-logout"));
+        return isElementPresent2(By.cssSelector("a.ico-logout"));
     }
 
     public void clickOnLoginButton() {

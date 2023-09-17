@@ -19,7 +19,7 @@ public class LoginDemoWebShopTests extends TestBaseDemoWebShop {
 
     @Test
     public void loginPositiveTest() {
-        app.getUser().fillLoginRegistrationForm(new User().setEmail("sssmith@gmail.com")
+        app.getUser().fillLoginRegistrationFormForScreencast(new User().setEmail("sssmith@gmail.com")
                 .setPassword("Smith007$"));
         app.getUser().clickOnLoginButton();
         Assert.assertTrue(app.getUser().isLogOutButtonPresent());
