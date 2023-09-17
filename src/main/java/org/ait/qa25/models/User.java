@@ -6,6 +6,14 @@ public class User {
     private String email;
     private String password;
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
     public User setFirstName(String firstName) {
         this.firstName = firstName;
         return this;
@@ -34,5 +42,12 @@ public class User {
         return password;
     }
 
-
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
 }

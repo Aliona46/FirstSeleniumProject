@@ -28,8 +28,12 @@ public class UserHelper extends HelperBase {
     }
 
     public void fillLoginRegistrationForm(User user) {
+        click(By.cssSelector("input#gender-male"));
+        type(By.cssSelector("#FirstName"), user.getFirstName());
+        type(By.cssSelector("#LastName"), user.getLastName());
         type(By.cssSelector("#Email"), user.getEmail());
         type(By.cssSelector("#Password"), user.getPassword());
+        type(By.cssSelector("#ConfirmPassword"), user.getPassword());
     }
 
     public void fillLoginRegistrationFormForScreencast(User user) {

@@ -11,6 +11,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import java.lang.reflect.Method;
+import java.util.Arrays;
 
 public class TestBaseDemoWebShop {
 
@@ -32,8 +33,8 @@ public class TestBaseDemoWebShop {
     }
 
     @BeforeMethod
-    public void startTest(Method m) {
-        logger.info("Start test " + m.getName());
+    public void startTest(Method m, Object[] p) {
+        logger.info("Start test " + m.getName()+ " with data: "+ Arrays.asList(p));
     }
 
     @AfterMethod

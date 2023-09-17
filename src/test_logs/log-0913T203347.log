@@ -1,7 +1,0 @@
-1828 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
-  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
-
-5542 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Start test newUserRegistrationPositiveTest
-8375 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- PASSED: newUserRegistrationPositiveTest
-8376 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Stop test 
-8376 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- ***************************

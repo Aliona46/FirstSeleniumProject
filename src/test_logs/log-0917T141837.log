@@ -1,0 +1,23 @@
+2006 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+6621 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Start test newUserRegistrationPositiveTestFromDataProviderWithCSV with data: [User{firstName='Ma', lastName='Great', email='mmmaax@gm.com'}]
+10846 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- PASSED: newUserRegistrationPositiveTestFromDataProviderWithCSV
+10846 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Stop test 
+10846 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- ***************************
+10849 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Start test newUserRegistrationPositiveTestFromDataProviderWithCSV with data: [User{firstName='Maxim', lastName='Great', email='mmmmaaaxx@gm.com'}]
+24202 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- PASSED: newUserRegistrationPositiveTestFromDataProviderWithCSV
+24203 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Stop test 
+24203 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- ***************************
+24205 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Start test newUserRegistrationPositiveTestFromDataProviderWithCSV with data: [User{firstName='Maxim-Ma', lastName='Great', email='mmmmmmaaaxxx@gm.com'}]
+37488 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- PASSED: newUserRegistrationPositiveTestFromDataProviderWithCSV
+37488 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Stop test 
+37488 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- ***************************
+37491 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Start test newUserRegistrationPositiveTestFromDataProviderWithCSV with data: [User{firstName='Maxim Ma', lastName='Great', email='mmmmmmmaaxxxxx@gm.com'}]
+51014 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- PASSED: newUserRegistrationPositiveTestFromDataProviderWithCSV
+51014 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Stop test 
+51014 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- ***************************
+51016 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Start test newUserRegistrationPositiveTestFromDataProviderWithCSV with data: [User{firstName='Maximmmmmmmmmmmmmmm', lastName='Great', email='mmmaaaaaaxxx@gm.com'}]
+64372 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- PASSED: newUserRegistrationPositiveTestFromDataProviderWithCSV
+64372 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Stop test 
+64372 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- ***************************

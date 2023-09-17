@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ait.qa25.HomePageTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-13T09:27:07" hostname="DESKTOP-OS617JJ" time="0.08">
+  <properties/>
+  <testcase name="isHomeComponentPresentTest" classname="org.ait.qa25.HomePageTests" time="0.08"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

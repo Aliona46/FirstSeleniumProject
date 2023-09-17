@@ -7,9 +7,14 @@
             <class name="org.ait.qa25.LoginDemoWebShopTests">
                 <methods>
                     <exclude name=".*Negative.*"/>
+                    <exclude name=".*Screencast.*"/>
                 </methods>
             </class>
-            <class name="org.ait.qa25.AddItemToCartTests" />
+            <class name="org.ait.qa25.AddItemToCartTests" >
+                <methods>
+                    <exclude name=".*DataProvider.*"/>
+                </methods>
+            </class>
         </classes>
     </test>
 

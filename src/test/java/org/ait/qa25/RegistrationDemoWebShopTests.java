@@ -1,12 +1,17 @@
 package org.ait.qa25;
 
 import org.ait.qa25.models.User;
+import org.ait.qa25.utils.DataProviders;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -25,7 +30,8 @@ public class RegistrationDemoWebShopTests extends TestBaseDemoWebShop {
 
         @Test
         public void newUserRegistrationPositiveTest () {
-            fillRegistrationForm("John1", "Smith", "ssssssssmith@gmail.com", "Smith007$");
+        int i = (int) ((System.currentTimeMillis()/1000) % 3600);
+            fillRegistrationForm("John1", "Smith", "ss"+i+"@gmail.com", "Smith007$");
 
 
             clickOnRegistrationButton();
@@ -71,22 +77,37 @@ public class RegistrationDemoWebShopTests extends TestBaseDemoWebShop {
         return list.iterator();
         }
 
-   /* @Test(dataProvider = "newUser")
-    public void newUserRegistrationPositiveTestFromFDataProvider (String firstName,
-                                                                  String lastName,
-                                                                  String email,
-                                                                  String password) {
-        //fillRegistrationForm();
-        app.getUser().fillRegistrationForm(new User()
-                .setFirstName(firstName)
-                .setLastName(lastName)
-                .setEmail(email)
-                .setPassword(password));
+    @DataProvider
+    public Iterator<Object[]> newUserWithCSVFile() throws IOException {
+        List<Object[]> list = new ArrayList<>();
+        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/UsersRegistrationList.csv")));
+        String line = reader.readLine();
+        while (line != null) {
+
+            String[] split = line.split(",");
+
+            list.add(new Object[]{new User().setFirstName(split[0])
+                    .setLastName(split[1])
+                    .setEmail(split[2])
+                    .setPassword(split[3])});
+            line = reader.readLine();
+        }
+
+        return list.iterator();
+
+    }
+
+   @Test(dataProvider = "newUserWithCSVFile",dataProviderClass = DataProviders.class)
+   public void newUserRegistrationPositiveTestFromDataProviderWithCSV(User user) {
+
+       app.getUser().fillLoginRegistrationForm(user);
+
+       app.getUser().clickOnRegistrationButton();
+       Assert.assertTrue(app.getUser().isElementPresent(By.cssSelector(".register-continue-button")));
+       //app.getUser().pause(1000);
 
 
-        app.getUser().clickOnRegistrationButton();
 
-        Assert.assertTrue(app.getUser().isElementPresent(By.cssSelector(".register-continue-button")));
-    }*/
+   }
     }
 

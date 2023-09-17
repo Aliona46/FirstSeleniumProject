@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ait.qa25.LoginDemoWebShopTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-13T09:27:08" hostname="DESKTOP-OS617JJ" time="1.331">
+  <properties/>
+  <testcase name="loginPositiveTest" classname="org.ait.qa25.LoginDemoWebShopTests" time="1.331"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[JavaScript warning: https://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demowebshop.tricentis.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demowebshop.tricentis.com."
+JavaScript warning: https://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+]]></system-err>
+</testsuite>
