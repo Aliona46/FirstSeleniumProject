@@ -1,0 +1,15 @@
+1708 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+5091 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Start test loginNegativeWithoutEmailTest with data: []
+15971 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- FAILED loginNegativeWithoutEmailTestScreenshot: C:\QAProjests\FirstSeleniumProject\screenshots\screen1695035215.png
+15972 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Stop test 
+15972 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- ***************************
+15975 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Start test loginPositiveTest with data: []
+20983 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- PASSED: loginPositiveTest
+20984 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Stop test 
+20984 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- ***************************
+20990 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Start test loginPositiveTestWithScreencast with data: []
+42129 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- PASSED: loginPositiveTestWithScreencast
+42129 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Stop test 
+42129 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- ***************************

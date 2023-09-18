@@ -19,7 +19,7 @@ public class LoginDemoWebShopTests extends TestBaseDemoWebShop {
 
     @Test
     public void loginPositiveTest() {
-        app.getUser().fillLoginRegistrationFormForScreencast(new User().setEmail("sssmith@gmail.com")
+        app.getUser().fillLoginRegistrationFormShortForm(new User().setEmail("sssmith@gmail.com")
                 .setPassword("Smith007$"));
         app.getUser().clickOnLoginButton();
         Assert.assertTrue(app.getUser().isLogOutButtonPresent());
@@ -42,7 +42,7 @@ public class LoginDemoWebShopTests extends TestBaseDemoWebShop {
 
     @Test
     public void loginNegativeWithoutEmailTest() {
-        app.getUser().fillLoginRegistrationForm(new User().setPassword("Smith007$") );
+        app.getUser().fillLoginRegistrationFormShortForm(new User().setPassword("Smith007$") );
         app.getUser().clickOnLoginButton();
         Assert.assertTrue(app.getUser().isAlertPresent());
     }

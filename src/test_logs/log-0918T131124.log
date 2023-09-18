@@ -1,0 +1,7 @@
+1813 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+5362 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Start test addItemToCartPositiveTest with data: []
+12743 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- PASSED: addItemToCartPositiveTest
+12745 [main] INFO  org.ait.qa25.TestBaseDemoWebShop -- Stop test 
+12746 [main] ERROR org.ait.qa25.TestBaseDemoWebShop -- ***************************

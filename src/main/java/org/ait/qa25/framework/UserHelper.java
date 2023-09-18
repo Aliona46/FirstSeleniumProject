@@ -42,6 +42,12 @@ public class UserHelper extends HelperBase {
         type(By.cssSelector("#Password"), user.getPassword());
         pause(2000);
     }
+    public void fillLoginRegistrationFormShortForm(User user) {
+        type(By.cssSelector("#Email"), user.getEmail());
+        pause(1000);
+        type(By.cssSelector("#Password"), user.getPassword());
+        pause(2000);
+    }
 
     public boolean isLogOutButtonPresent() {
         return isElementPresent2(By.cssSelector("a.ico-logout"));

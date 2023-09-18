@@ -14,7 +14,7 @@ public class AddItemToCartTests extends TestBaseDemoWebShop {
         }
         app.getUser().clickOnLoginLink();
 
-        app.getUser().fillLoginRegistrationForm(new User().setEmail("sssmith@gmail.com")
+        app.getUser().fillLoginRegistrationFormShortForm(new User().setEmail("sssmith@gmail.com")
                 .setPassword("Smith007$"));
         app.getUser().clickOnLoginButton();
         Assert.assertTrue(app.getUser().isLogOutButtonPresent());
